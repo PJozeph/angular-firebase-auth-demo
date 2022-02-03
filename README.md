@@ -1,1 +1,3 @@
-# angular-firebase-auth-demo
+# FirebaseAuthDemo
+
+

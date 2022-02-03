@@ -1,0 +1,15 @@
+
+<div class="container">
+    <label>Email :</label>
+    <input type="text">
+    <label>Password :</label>
+    <input type="text">
+    <button (click)=login()>LOGIN</button>
+    <button (click)=createAccount()>Create account</button>
+</div>
+<div *ngIf="errorMessage" class="container">
+    {{errorMessage}}
+</div>
+<div *ngIf="user" class="container">
+    {{user | json}}
+</div>
