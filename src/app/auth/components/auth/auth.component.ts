@@ -11,7 +11,6 @@ export class AuthComponent implements OnInit {
 
   public email: string;
   public password: string;
-  public isLogin = true;
   public user: UserCredential;
   public errorMessage: string;
 
@@ -32,6 +31,5 @@ export class AuthComponent implements OnInit {
       error: (error) => this.errorMessage = error,
     });
   }
-
 
 }
